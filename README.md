@@ -16,3 +16,10 @@ www.amazon.com/Mushkin-MKNSSDRE1TB-Reactor-SATA-2-5inch/dp/B00PAFJJRA?ie=UTF8&ke
 to this:
 
 http://amazon.com/dp/B00PAFJJRA
+
+
+# To install
+
+* navigate to chrome://extensions
+* Click on "Developer Mode" at the top right
+* Drag and drop `tnyclip.crx` into the browser to install
