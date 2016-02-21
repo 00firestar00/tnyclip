@@ -45,7 +45,7 @@ function minifyURL(url) {
 
         for (i = 0; i < params_arr.length; i++) {
             if (params_arr[i].startsWith("Item")) {
-                base_url = base_url + "?" + params_arr[i];
+                base_url = "http://newegg.com/Product/Product.aspx" + "?" + params_arr[i];
                 break;
             }
         }
@@ -60,7 +60,7 @@ function minifyURL(url) {
         for (i = 0; i < params_arr.length; i++) {
             check = params_arr[i];
             if (check === "product" || check === "dp" ) {
-                base_url = "amazon.com/dp/" + params_arr[i+1];
+                base_url = "http://amazon.com/dp/" + params_arr[i+1];
                 break;
             }
         }
