@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "TnyClip",
+  "version": "0.1.1",
+  "author": "Evan Jarrett",
+  "description": "Simple application to strip extra tracking and unnecessary variables from certain urls",
+
+  "background" : {
+    "scripts": ["tnyclip.js"]
+  },
+
+  "permissions": [
+    "background",
+    "clipboardRead",
+    "clipboardWrite",
+    "storage"
+  ]
+
+}
